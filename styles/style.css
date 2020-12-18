@@ -188,7 +188,40 @@
   font-weight: normal;
 }
 
+.table {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  
+}
 
+.table_place_digits {
+  width: 1100px;
+  padding-top: 60px;
+}
+
+.table__cell {
+  border: 1px solid red;
+  width: 250px;
+}
+
+.table__heading {
+  border: 1px solid red;
+  margin: 0px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  border: 1px solid red;
+  margin: 0px;
+  padding-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
