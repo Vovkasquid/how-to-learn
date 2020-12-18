@@ -14,14 +14,16 @@
   position: relative;
 }
 
-.logo {
+.header__logo {
   height: 32px;
   width: 183px;
 }
 
-.logo__name {
+.logo_name_header {
   background: url("../images/logo_place_footer.svg");
   background-repeat: no-repeat;
+  background-size: contain;
+
 
 }
 
