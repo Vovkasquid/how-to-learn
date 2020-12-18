@@ -7,6 +7,28 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  /*position: relative;*/
+  border: 5px solid red;
+  min-height: 600px;
+  max-height: 756px;
+  position: relative;
+}
+
+.logo {
+  height: 32px;
+  width: 183px;
+}
+
+.logo__name {
+  background: url("../images/logo_place_footer.svg");
+  background-repeat: no-repeat;
+
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
 }
 
 .header {
