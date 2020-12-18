@@ -152,6 +152,28 @@
   margin: 0px;
 
 }
+
+.digits {
+  display: flex;
+  justify-content: center;
+  border: 5px solid red;
+}
+
+.section-title {
+  border: 1px solid red;
+}
+
+.section-title_place_digits {
+  width: 60%;
+}
+
+.section-title__text {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
