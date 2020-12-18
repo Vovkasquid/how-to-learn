@@ -24,7 +24,7 @@
   align-items: center;
 }
 
-.header__logo {
+.logo {
   height: 32px;
   width: 183px;
 }
@@ -33,20 +33,6 @@
   background: url("../images/logo_place_footer.svg");
   background-repeat: no-repeat;
   background-size: contain;
-
-
-}
-
-.header__title {
-  width: 730px;
-  height: 96px;
-  padding-left: 64px;
-  order: 1;
-}
-.header__title-text {
-  margin: 0px;
-  font-size: 102px;
-  font-weight: bold;
 }
 
 .logo_place_header {
@@ -54,7 +40,36 @@
   top: 30px;
   left: 64px;
 }
+.header__title {
+  width: 730px;
+  padding-left: 64px;
+  order: 1;
+}
+.header__title-text {
+  margin: 0px;
+  font-size: 102px;
+  font-weight: bold;
+  line-height: 96px;
+}
 
+.header__subtitle {
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+ 
+}
+
+.header__subtitle-text {
+  margin: 0px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__subtitle-link {
+  color: #2f80ed;
+  text-decoration: none;
+}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
