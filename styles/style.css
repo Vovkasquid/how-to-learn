@@ -161,20 +161,19 @@
 
 .section-title {
   border: 1px solid red;
+  margin: 0px;
+  text-align: center;
 }
 
 .section-title_place_digits {
   width: 60%;
   padding-bottom: 20px;
-}
-
-.section-title__text {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  text-align: center;
-  margin: 0px;
 }
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
