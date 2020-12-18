@@ -155,7 +155,9 @@
 
 .digits {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   border: 5px solid red;
 }
 
@@ -171,6 +173,19 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+}
+
+.section-subtitle {
+  border: 1px solid red;
+  margin: 0px;
+  text-align: center;
+}
+
+.section-subtitle_place_digits {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 
