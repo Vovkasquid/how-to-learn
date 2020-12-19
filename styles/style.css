@@ -8,10 +8,8 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   /*position: relative;*/
-  border: 5px solid red;
-  min-height: 600px;
-  max-height: 756px;
-  position: relative;
+  border: 5px solid red; 
+
 }
 
 .bold-text {
@@ -26,6 +24,10 @@
   display: flex;
   /*justify-content: center;*/
   align-items: center;
+  background-color: #f2f2f2;
+  position: relative;
+  min-height: 600px;
+  max-height: 756px;
 }
 
 .logo {
@@ -194,7 +196,9 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
-  
+  list-style: none;
+  margin: 0px;
+  padding: 0px; 
 }
 
 .table_place_digits {
@@ -205,6 +209,9 @@
 .table__cell {
   border: 1px solid red;
   width: 250px;
+  padding-top: 60px;
+  margin: 0px;
+  padding: 0px;
   padding-top: 60px;
 }
 
@@ -226,7 +233,7 @@
 }
 
 .feynman {
-  border: 1px solid red;
+  border: 5px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -235,6 +242,7 @@
   background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
   background-position: bottom left;
+  background-color: #f2f2f2;
 }
 
 
@@ -277,6 +285,32 @@
   position: absolute;
   top: 50%;
   right: 0px;
+}
+
+.kaufman {
+  padding-top: 90px;
+  border: 5px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f;
+}
+
+.section-title_place_kaufman {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  width: 60%;
+  color: white;
+}
+
+.section-subtitle_place_kaufman {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 60%;
+  color: white;
+  padding-top: 20px;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
