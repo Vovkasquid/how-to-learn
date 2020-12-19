@@ -250,7 +250,7 @@
   background-color: #f2f2f2;
 }
 
-.feyman__title {
+.feynman__title {
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
@@ -258,7 +258,7 @@
   text-align: center;
   margin: 0;
 }
-.feyman__subtitle {
+.feynman__subtitle {
   margin: 0;
   padding-top: 70px;
   line-height: 51px;
@@ -266,7 +266,7 @@
   font-weight: normal; 
 }
 
-.feyman__link {
+.feynman__link {
   color: #2f80ed;
   text-decoration: none;
   line-height: 51px;
