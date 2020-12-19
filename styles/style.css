@@ -31,21 +31,26 @@
 }
 
 .logo {
-  height: 32px;
   width: 183px;
 }
 
-.logo_name_header {
+.logo_place_header {
+  height: 32px;
+  background: url("../images/logo_place_header.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.logo_place_footer {
+  height: 35px;
   background: url("../images/logo_place_footer.svg");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-}
 .header__title {
   width: 730px;
   padding-left: 64px;
@@ -183,6 +188,7 @@
   font-weight: bold;
   width: 60%;
   color: white;
+  z-index: 1;
 }
 
 .section-subtitle {
@@ -205,6 +211,7 @@
   width: 60%;
   color: white;
   padding-top: 20px;
+  z-index: 1;
 }
 
 .table {
@@ -229,6 +236,7 @@
   padding: 0px; 
   width: 1100px;
   padding-bottom: 90px;
+  z-index: 1;
 }
 
 .table__cell {
@@ -340,13 +348,62 @@
 }
 
 .kaufman {
+  position: relative;
   padding-top: 90px;
   border: 5px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #1f1f1f;
+  overflow: hidden;
 }
 
+.kaufman__triangle{
+  height: 877px;
+  width: 877px;
+  background-image: url("../images/kaufman-triangle.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: -210px;
+  top: 0px;
+}
 
+.footer {
+  border: 5px solid red;
+  padding-top: 60px;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  background-color: #1f1f1f;
+}
 
+.footer__columns {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  border: 1px solid red;
+  width: 90%;
+}
+
+.footer__column {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__author {
+  color: white;
+  margin: 0px;
+  padding: 18px 0px 18px 0px;
+  line-height: 25px;
+  font-size: 18px;
+}
