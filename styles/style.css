@@ -63,6 +63,10 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  color: blue;
+}
+
 .header__main-illustration {
   height: 608px;
   width: 765px;
@@ -277,6 +281,10 @@
   right: 48px;
 }
 
+.feynman__link:hover {
+  color: blue;
+}
+
 .kaufman {
   position: relative;
   padding-top: 90px;
@@ -363,6 +371,10 @@
   text-decoration: none;
   color: white;
   list-style: none;
+}
+
+.footer__column-link:hover {
+  color: #2f80ed;
 }
 
 .footer__column-link:last-child {
