@@ -124,15 +124,12 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
 }
 
 
 .two-columns__paragraph:last-child {
   padding-bottom: 0;
-}
-
-.two-columns__paragraph-text {
-  margin: 0;
 }
 
 .digits {
