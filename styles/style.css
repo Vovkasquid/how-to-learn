@@ -407,3 +407,39 @@
   line-height: 25px;
   font-size: 18px;
 }
+
+.footer__column-heading {
+  color: white;
+  margin: 0px;
+  padding-bottom: 20px;
+  border: 1px solid red;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.column-links {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  padding-bottom: 16px;
+}
+
+.column-link {
+  border: 1px solid red;
+  padding-bottom: 10px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.column-link:last-child {
+  padding-bottom: 0px;
+}
+
+.footer__social-icon {
+  margin: 0px;
+  width: 16px;
+  height: 16px;
+}
