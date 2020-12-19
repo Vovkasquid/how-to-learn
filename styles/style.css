@@ -169,12 +169,20 @@
   text-align: center;
 }
 
-.section-title_place_digits {
+.section-title_theme_white {
   width: 60%;
   padding-bottom: 20px;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+}
+
+.section-title_theme_black {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  width: 60%;
+  color: white;
 }
 
 .section-subtitle {
@@ -183,11 +191,20 @@
   text-align: center;
 }
 
-.section-subtitle_place_digits {
+.section-subtitle_theme_white {
   width: 60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+
+.section-subtitle_theme_black {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 60%;
+  color: white;
+  padding-top: 20px;
 }
 
 .table {
@@ -196,6 +213,15 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
+}
+
+.table_theme_white {
+  list-style: none;
+  margin: 0px;
+  padding: 0px; 
+}
+
+.table_theme_dark {
   list-style: none;
   margin: 0px;
   padding: 0px; 
@@ -208,30 +234,57 @@
 
 .table__cell {
   border: 1px solid red;
-  width: 250px;
-  padding-top: 60px;
   margin: 0px;
   padding: 0px;
+}
+
+.table__cell_theme_white {
+  border: 1 px solid red;
+  width: 250px;
   padding-top: 60px;
 }
 
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  border: 1 px solid red;
+}
 .table__heading {
   border: 1px solid red;
   margin: 0px;
+}
+
+.table__heading_theme_white {
   line-height: 1.15;
   font-size: 24px;
+  font-weight: bold;
+}
+
+.table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 60px;
   font-weight: bold;
 }
 
 .table__text {
   border: 1px solid red;
   margin: 0px;
+}
+
+.table__text_theme_white {
   padding-top: 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
-
+.table__text_theme_dark {
+  padding-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
 .feynman {
   border: 5px solid red;
   display: flex;
@@ -296,26 +349,5 @@
   background-color: #1f1f1f;
 }
 
-.section-title_place_kaufman {
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  width: 60%;
-  color: white;
-}
 
-.section-subtitle_place_kaufman {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  width: 60%;
-  color: white;
-  padding-top: 20px;
-}
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
+
