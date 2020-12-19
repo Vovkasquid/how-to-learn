@@ -104,13 +104,11 @@
 
 .two-columns__brief {
   width: 175px;
-}
-
-.two-columns__brief-text {
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .two-columns__main-text {
