@@ -177,7 +177,7 @@
   font-weight: bold;
 }
 
-.section-title_theme_black {
+.section-title_theme_dark {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
@@ -198,7 +198,7 @@
   font-weight: normal;
 }
 
-.section-subtitle_theme_black {
+.section-subtitle_theme_dark {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -264,7 +264,7 @@
 
 .table__heading_theme_dark {
   line-height: 1.15;
-  font-size: 60px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -298,7 +298,6 @@
   background-color: #f2f2f2;
 }
 
-
 .feyman__title {
   border: 1px solid red;
   width: 648px;
@@ -328,6 +327,7 @@
   left: 0px;
   z-index: 0;
 }*/
+
 .feyman__link {
   border: 1px solid red;
   color: #2f80ed;
