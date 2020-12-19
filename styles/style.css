@@ -424,14 +424,19 @@
   padding: 0px;
   list-style: none;
   padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .column-link {
+  margin: 0px;
   border: 1px solid red;
   padding-bottom: 10px;
   line-height: 30px;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
 }
 
 .column-link:last-child {
