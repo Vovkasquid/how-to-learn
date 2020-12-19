@@ -345,7 +345,7 @@
   font-weight: bold;
 }
 
-.column-links {
+.footer__column-links {
   color: white;
   margin: 0;
   padding: 0;
@@ -355,16 +355,17 @@
   flex-direction: column;
 }
 
-.column-link {
+.footer__column-link {
   margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
   color: white;
+  list-style: none;
 }
 
-.column-link:last-child {
+.footer__column-link:last-child {
   padding-bottom: 0;
 }
 
