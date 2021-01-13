@@ -4,8 +4,11 @@
     background-image: url('../../../images/kaufman-triangle.svg');
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center center;
     position: absolute;
     right: -210px;
     top: 0;
     z-index: -1;
+    /*Треугольник неравносторонний. Поэтому нет смысла двигать его относительно элемента kaufman__triangle, нужно изменить ось вращения. Для этого необходимы координаты центра треугольника. В SVG файле есть координаты вершин треугольника. Используя онлайн калькулятор находим центр треугольника в SVG (x=580, Y=431). Считаем соотношение сторон X и Y SVG и элемента kaufman__triangle. Получается, что при масштабировании координата X уменьшается в 1.1345 раза, а Y в 1.147 раза. Таким образом получаем координаты нового центра вращения и устанавливаем его с помощью свойства transform-origin*/
+    transform-origin: 511px 376px;
   }
