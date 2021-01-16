@@ -7,8 +7,11 @@
     position: absolute;
     top: 50%;
     right: 48px;
+    opacity: 1;
+    transition: opacity 0.2s linear;
   }
   
   .feynman__link:hover {
     color: blue;
+    opacity: 0.6;
   }

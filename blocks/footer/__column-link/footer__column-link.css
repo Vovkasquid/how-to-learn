@@ -6,10 +6,13 @@
     text-decoration: none;
     color: white;
     list-style: none;
+    opacity: 1;
+    transition: opacity 0.2s linear;
   }
   
   .footer__column-link:hover {
     color: #2f80ed;
+    opacity: 0.6;
   }
 
   .footer__column-link:last-child {
